@@ -1,0 +1,53 @@
+.pagina .logo {
+    
+    
+}
+.logo:hover{
+    scale: 1;
+    -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+.pagina {
+    height: 100vh;
+    background-color: black;
+}
+
+body {
+    margin: 0;
+}
+
+.datos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url(../img/morados.png);
+    background-size: 100%;
+}
+
+button {
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    background-color: #1ED760;
+    border: none;
+    box-shadow: -1px 1px 22px 0px rgba(34, 167, 93, 1);
+    transition: all ease-in-out 0.3s;
+
+}
+
+button:hover {
+    scale: 1.1;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -1px 1px 22px 0px rgb(230, 238, 233);
+}
+
+
+  

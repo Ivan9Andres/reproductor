@@ -1,0 +1,52 @@
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+    position: relative;
+}
+body{
+    margin: 0%;
+}
+.negro{
+background-color: black;
+height: 100vh;
+z-index: 3;
+width: 100%;
+}
+.mujer{
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+}
+#imagen{
+    z-index: 4;
+    position: absolute;
+    width: 200px;
+}
+.seccion1{
+    color: white;
+    text-align: center;
+    z-index: 4;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 87px;
+    margin-left: -269%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.seccion1 p{
+    color: #797979;
+}
+.seccion1 .boton{
+    border-radius: 200px;
+    width: fit-content;
+    padding: 46px 140px 53px 140px;
+    background-color: #54057E;
+    margin-left: 15px;
+    
+}
